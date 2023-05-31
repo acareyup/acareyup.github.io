@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Vour Demo</title>
+    <title>THY Panoroma</title>
     <meta name="description" content="">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
@@ -21,7 +21,7 @@
       <div id="unity-footer">
         <div id="unity-fullscreen-button" onclick="unityInstance.SetFullscreen(1)"></div>
         <button id="entervr" value="Enter VR" disabled>VR</button>
-        <div id="unity-build-title">Vour Demo</div>
+        <div id="unity-build-title">THY Panoroma</div>
       </div>
     </div>
     <script>
@@ -57,7 +57,6 @@
           progressBarFull.style.width = 100 * progress + "%";
         }).then((instance) => {
           unityInstance = instance;
-          loadingBar.style.display = "none";
           if (fullscreenButton)
           {
             fullscreenButton.onclick = () => {
